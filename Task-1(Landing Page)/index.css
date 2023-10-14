@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    background-color: var(--color-1);
+}
+
+:root{
+
+--color-1: #f2e5d6;
+--color-2: #9F6900;
+--color-3: #FFA800;
+--color-4: #764f01;
+--color-5:#FFA800;
+--text-color:#1E1E1E;
+
+
+}
+
+a,button{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92%;
+ margin: auto;
+ margin-top: 3rem;
+}
+
+.logo{
+display: flex;
+flex-direction: column;
+line-height: 1;
+
+}
+
+.logo h1{
+font-size: 4rem;
+letter-spacing: 0.2rem;
+font-weight: 600;
+color: var(--color-2);
+
+}
+
+.logo h3{
+    margin: 0;
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+    font-family: Roboto;
+    color: #1E1E1E;
+    padding-left: 0.23rem;
+}
+
+.Nav-lists ul{
+    display: flex;
+    gap: 3rem;
+    color: var(--color-2);
+}
+
+.Nav-lists{
+border-bottom: 1px solid var(--color-4);
+padding-bottom: 1rem;
+border-width: 0.2rem;
+
+}
+
+.Nav-lists ul li{
+    list-style: none;
+}
+
+.Nav-lists ul li a{
+color: var(--color-2);
+text-transform: capitalize;
+text-shadow: 1px 2px 10px rgba(255, 160, 17, 0.29);
+font-family: Roboto;
+font-size: 1.445rem;
+font-style: normal;
+font-weight: 400;
+text-decoration: none;
+line-height: normal;
+transform: scale(1.5);
+transition: all 0.5s;
+}
+
+
+
+
+
+.Nav-lists ul li a:hover{
+font-size: 1.854rem;
+text-decoration: underline;
+font-weight: 600;
+}
+
+
+
+
+.Sign-Up button{
+
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    background-color: var(--color-3);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.Home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.H-1,.H-2{
+    position: absolute;
+    font-size: 4.5rem;
+   
+}
+.H-1{
+    top: 15rem;
+    letter-spacing: 1.1rem;
+    left: 8.3rem;
+    word-spacing: 2rem;
+    font-weight: 400;
+}
+
+.H-1 h1,.H-2 h1{
+font-weight: 500;
+color: var(--color-4);
+
+
+}
+
+.H-1 h1 span,.H-2 h1 span{
+    color: white;
+    font-weight: 500;
+    text-shadow: 3px 1px black;
+}
+.H-2{
+    letter-spacing: 1.1rem;
+    left: 14rem;
+    top: 28rem;
+    word-spacing: -1.8rem;
+}
+
+.Home .Image img{
+    width: 100%;
+    height: 75vh;
+}
+
+.Image{
+    flex-basis: 38%;
+}
+
+#Shop{
+    padding: 0.4rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    background-color: var(--);
+    background-color: var(--color-3);
+    font-weight: 500;
+    border: none;
+    position: absolute;
+    top: 43rem;
+    left: 9rem;
+    cursor: pointer;
+}
