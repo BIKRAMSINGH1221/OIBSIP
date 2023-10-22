@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<h1 id="Su">Temperature Converter</h1>
+
+<div class="Main-Div">
+
+<div class="Calculator">
+
+<h1>Enter Temperature</h1>
+
+<form action="/">
+
+    <div class="Numbers">
+    <label for="Name">Degree:</label> <br>
+    <input id="Number" type="number" required maxlength="6"> 
+        <select name="Convert-of" id="Convert-of">
+        <option value="C">C</option>
+        <option value="F">F</option>
+    </select>
+</div>
+    <div class="Convert-t">
+    <label for="To">Convert To:</label> <br>
+    <select name="Convert-to" id="Convert-to">
+        <option value="C">Celcius(C)</option>
+        <option value="F">Fahrenheit(F)</option>
+    </select>
+</div>
+
+</form>
+
+<Button type="button" id="button">Convert -></Button>
+</div>
+
+
+
+<div class="Result">
+
+    <h1 id="Converter">    </h1>
+</div>
+
+
+
+
+
+
+
+</div>
+<script src="index.js"></script>
+</body>
+</html>
