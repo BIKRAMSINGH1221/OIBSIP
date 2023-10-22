@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#Su{
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-size: 4rem;
+}
+
+.Main-Div{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding-left: 2rem;
+    border: 2px solid green;
+    margin: 10rem 3rem;
+    padding-right: 0;  
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.Calculator{
+    flex-basis: 50%;
+display: flex;
+flex-direction: column;
+gap: 3rem;
+}
+
+.Calculator h1{
+font-size: 2.6rem;
+margin-top: 3rem;
+}
+
+form{
+   display: flex; 
+   flex-direction: column;
+   gap: 2.3rem;
+}
+
+form label{
+    font-size: 1.5rem;
+    display: block;
+    /* margin-bottom: 6rem; */
+}
+
+#Number,#Convert-of,#Convert-to{
+    border: 2px solid grey;
+    padding: 0.5rem 1.3rem;
+    font-size: 1.5rem;
+    border-radius: 0.32rem;
+}
+  
+
+button{
+    display: block;
+    width: 28%;
+    cursor: pointer;
+    background: #8bff8b;
+    padding: 0.5rem;
+    font-size: 1.7rem;
+    border-radius: 2rem;
+    /* margin: auto; */
+    color: black;
+    margin-bottom: 3rem;
+    /* border: 1px solid grey; */
+}
+
+.Result{
+   text-align: center;
+   width: 50%;
+   margin: auto;
+   font-size: 4.5rem;
+   color: black;
+   font-weight: 500;
+}
+
+.Result::before{
+    content: "";
+    background-color: #8bff8b;
+    height: 63.7%;
+    width: 47%;
+    position: absolute;
+    top: 237.98px;
+    left: 755.8px;
+    z-index: -1;
+    border-left: 2px solid black;
+    
+}
